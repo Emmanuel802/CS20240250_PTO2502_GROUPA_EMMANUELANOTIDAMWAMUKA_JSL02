@@ -19,3 +19,17 @@ async function getTask(taskNumber) {
 
   return { title, description, status };
 }
+
+async function collectTasks() {
+  const task1 = await getTask(1);
+  if (!task1) {
+    console.log("Task 1 entry cancelled. Exiting task collection.");
+    return;
+  }
+
+  const task2 = await getTask(2);
+  if (!task2) {
+    console.log("Task 2 entry cancelled. Exiting task collection.");
+    return;
+  }
+}

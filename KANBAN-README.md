@@ -1,12 +1,12 @@
 # 📌 Project Title
 
-**Kanban Task Board (Part 1)**
+**Kanban Task Board (Part 2)**
 
 ---
 
 ## 📝 Description
 
-This project is a Kanban-style task board recreated from a Figma design. It is part of an ongoing continuous project and represents one of several parts being developed over time. The board is designed to help visualize task statuses using columns such as TODO, DOING, and DONE.
+This project is a Kanban-style task board recreated from a Figma design. It is part of an ongoing continuous project and represents one of several parts being developed over time. The board is designed to help visualize task statuses using columns such as TODO, DOING, and DONE. This is the second part of the project, and it currently focuses on the basics of logics of JavaScript.
 
 ---
 
@@ -14,6 +14,7 @@ This project is a Kanban-style task board recreated from a Figma design. It is p
 
 - HTML5
 - CSS3
+- JavaScript
 - Figma (design reference)
 
 ---
@@ -24,6 +25,7 @@ This project is a Kanban-style task board recreated from a Figma design. It is p
 - Sidebar with logo and board name
 - Three columns: TODO, DOING, DONE
 - Visual improvements using shadows, colors, and spacing
+- Added promotes for task input
 
 ---
 
@@ -34,6 +36,11 @@ This project is a Kanban-style task board recreated from a Figma design. It is p
 - How to use **media queries**
 - Improved my understanding of layout structure and styling
 - The importance of naming conventions and code cleanliness
+
+### What i have leaned for (PArt 2)
+
+- learned how to use async/await for sequential input.
+- How to use console.log
 
 ---
 

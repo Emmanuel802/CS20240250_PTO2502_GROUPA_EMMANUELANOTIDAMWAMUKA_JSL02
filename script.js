@@ -49,6 +49,10 @@ async function collectTasks() {
 
     anyDone = true;
   }
+
+  if (!anyDone) {
+    console.log("No tasks completed, let's get to work!");
+  }
 }
 
 document.addEventListener("DOMContentLoaded", collectTasks);

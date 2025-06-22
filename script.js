@@ -9,4 +9,13 @@ async function getTask(taskNumber) {
   if (status === null) return null;
 
   status = status.toLowerCase();
+
+  while (!["todo", "doing", "done"].includes(status)) {
+    alert("Invalid status. Please enter 'todo', 'doing', or 'done'.");
+    status = prompt(`Invalid status. Please enter 'todo', 'doing', or 'done'.`);
+    if (status === null) return null;
+    status = status.toLowerCase();
+  }
+
+  return { title, description, status };
 }

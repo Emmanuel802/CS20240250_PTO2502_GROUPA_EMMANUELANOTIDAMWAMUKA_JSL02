@@ -49,7 +49,7 @@ async function collectTasks() {
   // If task 1 is done
   if (task1.status === "done") {
     console.log(
-      `${task1.title}: ${task1.title}, Description: ${task1.description}, Status: ${task1.status}`
+      `${task1.title}: ${task1.description}, Status: ${task1.status}`
     );
     anyDone = true;
   }
@@ -57,7 +57,7 @@ async function collectTasks() {
   // If task 2 done
   if (task2.status === "done") {
     console.log(
-      `${task2.title}: ${task2.title}, Description: ${task2.description}, Status: ${task2.status}`
+      `${task2.title}: ${task2.description}, Status: ${task2.status}`
     );
     anyDone = true;
   }

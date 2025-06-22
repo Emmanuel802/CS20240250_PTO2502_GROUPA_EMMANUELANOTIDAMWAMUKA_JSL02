@@ -33,3 +33,5 @@ async function collectTasks() {
     return;
   }
 }
+
+document.addEventListener("DOMContentLoaded", collectTasks);
